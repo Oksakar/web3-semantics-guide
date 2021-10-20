@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+
+  background: url("dots.jpg");
+
+  font-family: Arial;
+  line-height: 3;
+  font-size: 18px;
+}
+
+.card {
+  width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+
+  background-color: #0ef3f3;
+  box-shadow: 0 5px 10px #609595;
+  border-radius: 10px;
+}
+
+.card-foto {
+  display: block;
+  width: 500px;
+  height: 400px;
+  margin: 0px auto;
+}
