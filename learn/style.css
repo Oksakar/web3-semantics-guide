@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   font-size: 16px;
-  color: #333;
+  color: rgb(245, 18, 196);
   line-height: 1.5;
 }
 
@@ -14,7 +14,7 @@ body {
 
 .subtitle {
   font-size: 30px;
-  color: #12ac11;
+  color: hsl(120, 93%, 18%, 0.5);
   line-height: 1.2;
   text-decoration: underline;
 }
@@ -24,4 +24,7 @@ body {
   color: #444;
   font-style: italic;
   list-style-type: square;
+}
+p {
+  background-image: url(retro.jpg);
 }
