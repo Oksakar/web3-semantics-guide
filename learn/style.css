@@ -17,6 +17,8 @@ body {
   color: hsl(120, 93%, 18%, 0.5);
   line-height: 1.2;
   text-decoration: underline;
+  border: 5px dotted greenyellow;
+  border-radius: 10px;
 }
 
 .list {
@@ -24,7 +26,4 @@ body {
   color: #444;
   font-style: italic;
   list-style-type: square;
-}
-p {
-  background-color: red;
 }
