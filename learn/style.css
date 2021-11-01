@@ -10,8 +10,10 @@ body {
   color: #f03333;
   line-height: 1.2;
   text-transform: uppercase;
-  border: 5px dashed rgb(95, 4, 4);
-  border-image: url(retro.jpg);
+  border: 20px solid;
+  border-image: url(retro.jpg) 37 round;
+  margin: 50px;
+  width: auto;
 }
 
 .subtitle {
