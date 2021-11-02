@@ -13,7 +13,11 @@ body {
   border: 20px solid;
   border-image: url(retro.jpg) 37 round;
   margin: 50px;
-  width: auto;
+  padding: 50px 20px;
+  width: 70%;
+  height: auto;
+  text-align: center;
+  outline: red 10px solid;
 }
 
 .subtitle {
