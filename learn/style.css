@@ -36,3 +36,12 @@ body {
   font-style: italic;
   list-style-type: square;
 }
+a:link {
+  color: blue;
+}
+a:hover {
+  color: hotpink;
+}
+a:visited {
+  color: green;
+}
