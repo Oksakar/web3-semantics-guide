@@ -13,7 +13,7 @@ body {
   text-transform: uppercase;
   border: 20px solid;
   border-image: url(retro.jpg) 37 round;
-  margin: 50px;
+  margin: 200px;
   padding: 50px 20px;
   width: 70%;
   height: auto;
@@ -45,4 +45,11 @@ a:hover {
 }
 a:visited {
   color: green;
+}
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73ad21;
 }
