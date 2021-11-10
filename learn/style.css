@@ -34,13 +34,14 @@ body {
   font-size: 20px;
   color: #444;
   font-style: italic;
-  list-style-type: square;
 }
-a:link {
+
+/* a:link {
   color: blue;
-}
+} */
 a:hover {
   color: hotpink;
+  background-color: yellow;
 }
 a:visited {
   color: green;
