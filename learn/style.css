@@ -3,7 +3,6 @@ body {
   font-size: 16px;
   color: rgb(245, 18, 196);
   line-height: 1.5;
-  text-align: center;
 }
 
 .title {
@@ -26,7 +25,7 @@ body {
   color: hsl(120, 93%, 18%, 0.5);
   line-height: 1.2;
   text-decoration: underline;
-  border: 5px dotted greenyellow;
+  border: 5px solid greenyellow;
   border-radius: 10px;
 }
 
@@ -52,4 +51,10 @@ div.fixed {
   right: 0;
   width: 300px;
   border: 3px solid #73ad21;
+}
+img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
 }
