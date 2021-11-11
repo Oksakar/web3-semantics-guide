@@ -5,17 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Работа со ссылками</title>
+    <style>
+      .block {
+        height: 100px;
+        width: 50%;
+      }
+      .close {
+        color: whitesmoke;
+        font-size: 26px;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+      }
+      .green {
+        background: green;
+        position: relative;
+      }
+      .red {
+        background: red;
+      }
+      .blue {
+        background: blue;
+      }
+      h1 {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+      }
+      .box {
+        position: relative;
+      }
+    </style>
   </head>
   <body>
     <p>
       <a href="index 2.html">Главная</a><br />
       <a href="contacts.html">Контакты</a>
     </p>
-    <p>
-      Есть много вариантов Lorem Ipsum, но большинство из них имеет не всегда
-      приемлемые модификации, например, юмористические вставки или слова,
-      которые даже отдалённо не напоминают латынь.
-    </p>
-    <h1>Главная</h1>
+
+    <div class="box">
+      <div class="green block">
+        <div class="close">x</div>
+      </div>
+      <div class="red block"></div>
+      <div class="blue block"></div>
+      <h1>Я здесь сверху</h1>
+      <h2>bottom</h2>
+    </div>
   </body>
 </html>
