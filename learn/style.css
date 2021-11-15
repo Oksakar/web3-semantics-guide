@@ -10,14 +10,14 @@ body {
   color: #f03333;
   line-height: 1.2;
   text-transform: uppercase;
-  border: 20px solid;
-  border-image: url(retro.jpg) 37 round;
-  margin: 200px;
+  border: 5px solid;
   padding: 50px 20px;
   width: 70%;
   height: auto;
   text-align: center;
   outline: red 10px solid;
+  position: sticky;
+  top: 0;
 }
 
 .subtitle {
