@@ -58,3 +58,10 @@ img {
   top: 0px;
   z-index: -1;
 }
+div.scroll {
+  background-color: #eee;
+  width: 50%;
+  height: 100px;
+  border: 1px dotted black;
+  overflow: auto;
+}
