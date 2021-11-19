@@ -27,6 +27,7 @@ body {
   text-decoration: underline;
   border: 5px solid greenyellow;
   border-radius: 10px;
+  display: block;
 }
 
 .list {
