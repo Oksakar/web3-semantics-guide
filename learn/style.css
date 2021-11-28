@@ -94,3 +94,6 @@ span.b {
 div > p {
   background-color: yellow;
 }
+div + p {
+  background-color: rgb(0, 47, 255);
+}
