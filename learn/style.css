@@ -30,6 +30,10 @@ body {
   display: block;
 }
 
+h2.subtitle:hover {
+  background-color: blue;
+}
+
 .list {
   font-size: 20px;
   color: #444;
