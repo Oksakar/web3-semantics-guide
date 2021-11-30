@@ -31,7 +31,7 @@ body {
 }
 
 h2.subtitle:hover {
-  background-color: blue;
+  background-color: rgb(255, 0, 43);
 }
 
 .list {
@@ -40,16 +40,6 @@ h2.subtitle:hover {
   font-style: italic;
 }
 
-/* a:link {
-  color: blue;
-} */
-a:hover {
-  color: hotpink;
-  background-color: yellow;
-}
-a:visited {
-  color: green;
-}
 div.fixed {
   position: fixed;
   bottom: 0;
@@ -95,9 +85,12 @@ span.b {
   border: 1px solid blue;
   background-color: yellow;
 }
-div > p {
-  background-color: yellow;
+p.foo {
+  display: none;
 }
-div + p {
-  background-color: rgb(0, 47, 255);
+
+div:hover p.foo {
+  background-color: yellow;
+  padding: 20px;
+  display: block;
 }
