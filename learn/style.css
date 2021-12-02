@@ -38,6 +38,14 @@ h2.subtitle:hover {
   font-size: 20px;
   color: #444;
   font-style: italic;
+  display: flex;
+  background-color: rgb(105, 10, 117);
+}
+.list > li {
+  background-color: #f1f1f1;
+  width: 300px;
+  margin: 10px;
+  text-align: center;
 }
 
 div.fixed {
