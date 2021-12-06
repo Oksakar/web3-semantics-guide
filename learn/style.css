@@ -39,6 +39,8 @@ h2.subtitle:hover {
   color: #444;
   font-style: italic;
   display: flex;
+
+  justify-content: space-around;
   background-color: rgb(105, 10, 117);
 }
 .list > li {
