@@ -78,7 +78,7 @@ div.scroll {
   display: flex;
   justify-content: start;
   flex-wrap: wrap;
-  background-color: rgb(21, 14, 22);
+  background-color: rgb(16, 58, 3);
 }
 .flex-container > div {
   background-color: #f1f1f1;
