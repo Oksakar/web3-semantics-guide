@@ -1,7 +1,6 @@
-let admin, name; // можно объявить две переменные через запятую
+const person2 = {
+  firstname: "John",
+  lastname: "Doe",
+};
 
-name = "Джон";
-
-admin = name;
-
-alert(admin);
+alert(person2["lastname"]);
