@@ -77,30 +77,20 @@
 
     <div class="fixed">Зафиксировано!</div>
     
+    <p id="demo"></p>
 
     <script>
-      function myTry() {
-        document.getElementById("demo").innerHTML = "Paragraph changed.";
-      }
-      </script>
-      </head>
-      <body>
-      
-      <h2>Demo JavaScript in Head</h2>
-      
-      <p id="demo">A Paragraph.</p>
-      
-      <button type="button" onclick="myTry()">Try it</button>
-      
-      <script src="alert2.js"> 
-      </script>
-      <p>This example calls a function which performs a calculation and returns the result:</p>
-
-      <p id="demo"></p>
-      
-      
-      
-  </body>
+    const person = {
+      name: "John",
+      age: 30,
+      city: "New York"
+    };
+    
+    document.getElementById("demo").innerHTML = person.name + ", " + person.age + ", " + person.city;
+    </script>
+    
+    
+     </body>
 
 
 
