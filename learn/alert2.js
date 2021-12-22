@@ -1,9 +1,11 @@
-let name = "Ilya";
+const person = {
+  firstname: "John",
+  lastname: "Doe",
+  age: 50,
+  eyecolor: "blue",
+};
+person.nationality = "English";
 
-// выражение - число 1
-alert(`hello ${1}`); // hello 1
+const newValue = person.firstname + " is " + person.nationality + ".";
 
-// выражение - строка "name"
-alert(`hello ${"name"}`); // hello name
-let x = y;
-y = 6;
+document.getElementById("demo").innerHTML = newValue;
