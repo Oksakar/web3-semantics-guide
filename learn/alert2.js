@@ -10,3 +10,6 @@ var typeAndModel = ", type is " + car.type + " " + car.model;
 var newValue = ownerAndColor + typeAndModel;
 // Display the property:
 document.getElementById("demo").innerHTML = newValue;
+
+let x = 5;
+document.getElementById("demo2").innerHTML = x == 5;
