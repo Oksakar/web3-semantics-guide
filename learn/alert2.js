@@ -1,8 +1,5 @@
-myFunction();
+// Create an object:
+const car = { type: "Fiat", model: "500", color: "white" };
 
-function myFunction() {
-  let carName = "Volvo";
-  document.getElementById("demo1").innerHTML = typeof carName + " " + carName;
-}
-
-document.getElementById("demo2").innerHTML = typeof carName;
+// Display some data from the object:
+document.getElementById("demo").innerHTML = "The car type is " + car.type;
