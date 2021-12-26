@@ -1,15 +1,8 @@
-const car = { type: "Fiat", model: "500", color: "white" };
+myFunction();
 
-// Change a property:
-car.color = "red";
+function myFunction() {
+  let carName = "Volvo";
+  document.getElementById("demo1").innerHTML = typeof carName + " " + carName;
+}
 
-// Add a property:
-car.owner = "Johnson";
-var ownerAndColor = "Car owner is " + car.owner + ", color is " + car.color;
-var typeAndModel = ", type is " + car.type + " " + car.model;
-var newValue = ownerAndColor + typeAndModel;
-// Display the property:
-document.getElementById("demo").innerHTML = newValue;
-
-let x = 5;
-document.getElementById("demo2").innerHTML = x == 5;
+document.getElementById("demo2").innerHTML = typeof carName;
