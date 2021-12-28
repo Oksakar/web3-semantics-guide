@@ -1,3 +1,2 @@
-<button onclick="document.getElementById('demo').innerHTML=Date()">
-  The time is?
-</button>;
+let text = 'We are the so-called "Vikings" from the north.';
+document.getElementById("demo").innerHTML = text;
