@@ -1,7 +1,7 @@
-function myFunction() {
-  let text = document.getElementById("demo").innerHTML;
-  document.getElementById("demo").innerHTML = text.replace(
-    "Microsoft",
-    "W3Schools"
-  );
+function showMessage(from, text) {
+  // аргументы: from, text
+  alert(from + ": " + text);
 }
+
+showMessage("Аня", "Привет!"); // Аня: Привет! (*)
+showMessage("Аня", "Как дела?"); // Аня: Как дела? (**)
