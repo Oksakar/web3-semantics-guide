@@ -1,7 +1,2 @@
-function showMessage(from, text) {
-  // аргументы: from, text
-  alert(from + ": " + text);
-}
-
-showMessage("Аня", "Привет!"); // Аня: Привет! (*)
-showMessage("Аня", "Как дела?"); // Аня: Как дела? (**)
+var myHeading = document.querySelector("h1");
+myHeading.textContent = "Hello world!";
