@@ -1,7 +1,12 @@
-function getReminder() {
-  console.log("Water the plants.");
-}
-function greetInSpanish() {
-  console.log("Buenas Tardes.");
-}
-greetInSpanish();
+const groceryList = [
+  "orange juice",
+  "bananas",
+  "coffee beans",
+  "brown rice",
+  "pasta",
+  "coconut oil",
+  "plantains",
+];
+groceryList.shift();
+groceryList.unshift("popcorn");
+console.log(groceryList);
