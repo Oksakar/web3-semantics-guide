@@ -32,7 +32,7 @@ function muFunction(item, index, array) {
 }
 
 let arr = [1, 2, 3, 4, 5];*/
-let spaceship = {
+/*let spaceship = {
   passengers: [
     {
       pass1: {
@@ -76,4 +76,20 @@ let spaceship = {
 };
 let capFave = spaceship.crew.captain["favorite foods"][0];
 let firstPassenger = spaceship.passengers[0];
-console.log(Object.keys(spaceship));
+console.log(Object.keys(spaceship));*/
+
+let load_A14 = 3;
+let A = load_A14;
+
+let load_B15 = 14;
+let B = load_B15;
+A += B;
+console.log(A);
+
+/*let load_A14 = 1;
+let A = load_A14;
+
+let load_B15 = 1;
+let B = load_B15;
+A += B;
+console.log(A);*/
