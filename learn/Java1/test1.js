@@ -78,13 +78,10 @@ let capFave = spaceship.crew.captain["favorite foods"][0];
 let firstPassenger = spaceship.passengers[0];
 console.log(Object.keys(spaceship));*/
 
-let load_A14 = 3;
-let A = load_A14;
+let A = 3;
+let B = 14;
 
-let load_B15 = 14;
-let B = load_B15;
-A += B;
-console.log(A);
+let C = A + B;
 
 /*let load_A14 = 1;
 let A = load_A14;
@@ -93,3 +90,9 @@ let load_B15 = 1;
 let B = load_B15;
 A += B;
 console.log(A);*/
+
+for (let i = 0; i < 3; i++) {
+  for (let j = 0; j < 3; j++) {
+    // do stuff with a cell
+  }
+}
