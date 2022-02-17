@@ -9,6 +9,9 @@
 // Получить в переменную элемент с атрибутом data-say-hi
 // и прочитать значение этого атрибута
 <div data-say-hi="yes">Привет!</div>
+Ответ:
+const foo = document.querySelector("[data-say-hi]");
+console.log(foo.getAttribute("data-say-hi"));
 
 // Задача №2.
 // Получить в переменную элемент с текстом Йончи
@@ -16,6 +19,12 @@
 	<li>Корчи</li>
 	<li>Йончи</li>
 </ul>
+ответ:
+const elems = document.querySelector("li:nth-child(2)");
+const foo = elems.textContent;
+console.log(foo);
+или
+console.log(elems.textContent);
 
 // Задача №3.
 // Получить в переменную коллекцию элементов с классом like
@@ -39,6 +48,11 @@ list.insertAdjacentHTML(
 	<li>Пункт №2</li>
 </ul>
 */
+
+const elems = document.querySelector("li:nth-child(2)");
+
+console.log(elems.textContent);
+console.log(elems.innerHTML);
 
 //========================================================================================================================================================
 //========================================================================================================================================================
