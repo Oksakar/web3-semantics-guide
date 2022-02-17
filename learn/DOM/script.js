@@ -26,6 +26,7 @@ console.log(foo);
 или
 console.log(elems.textContent);
 
+
 // Задача №3.
 // Получить в переменную коллекцию элементов с классом like
 <div class="like"></div>
@@ -49,10 +50,9 @@ list.insertAdjacentHTML(
 </ul>
 */
 
-const elems = document.querySelector("li:nth-child(2)");
+const elems = document.querySelectorAll(".like");
 
-console.log(elems.textContent);
-console.log(elems.innerHTML);
+console.log(elems);
 
 //========================================================================================================================================================
 //========================================================================================================================================================
