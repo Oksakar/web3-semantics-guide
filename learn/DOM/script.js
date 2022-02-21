@@ -32,6 +32,9 @@ console.log(elems.textContent);
 <div class="like"></div>
 <div class="subscribe"></div>
 <div class="like subscribe"></div>
+Ответ:
+const elems = document.querySelectorAll(".like");
+console.log(elems);
 
 // Задача №4.
 // Куда добавится <li>Текст</li> ?
@@ -49,10 +52,6 @@ list.insertAdjacentHTML(
 	<li>Пункт №2</li>
 </ul>
 */
-
-const elems = document.querySelectorAll(".like");
-
-console.log(elems);
 
 //========================================================================================================================================================
 //========================================================================================================================================================

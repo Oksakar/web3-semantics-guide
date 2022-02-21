@@ -69,5 +69,90 @@ let arr = [1, 2, 3, 4, 5];*/
 // };
 // let capFave = spaceship.crew.captain["favorite foods"][0];
 // let firstPassenger = spaceship.passengers[0].pass1.age;
-// console.log(firstPassenger);
-const foo = document.querySelector(".fixed");
+// console.l.og(firstPassenger);
+
+// const array = [];
+// for (let i = 2; i < 51; i++) {
+//   if ((i + 1) % 2 === 0) {
+//     console.log(i);
+//   }
+// }
+// var arr = [];
+
+// for (var i = 0; i < 50; i++) {
+//   if (i % 2 === 0) {
+//     arr.push(i);
+//   }
+// }
+
+// console.log(arr);
+
+// var arr = [];
+// for (var i = 50; i > 0; i--) {
+//   if (i % 3 === 0) {
+//     arr.push(i);
+//   }
+// }
+// console.log(arr);
+
+// var arr = [];
+// for (var i = 0; i > 50; i++) {
+//   arr.push(i);
+// }
+// console.log(arr);
+// var arr = [];
+// for (var i = 0; i < 10; i++) {
+//   arr.push(i * i);
+// }
+// console.log(arr);
+// var arr = [];
+// var count = 0;
+// for (var i = 0; i < 20; i++) {
+//   arr.push(i);
+//   if (arr[i] % 2 === 0) {
+//     count++;
+//   }
+// }
+// console.log(count);
+var arr = [];
+var count = 0;
+for (var i = 0; i < 10; i++) {
+  arr.push(i);
+  if (arr[i] % 3 === 0) {
+    count++;
+  }
+}
+// console.log(count);
+// var arr = [];
+// var count = 0;
+// for (var i = 0; i < 10; i++) {
+//   arr.push(i);
+//   const isDividableByThree = arr[i] % 3 === 0;
+//   const isNotDividableBySeven = arr[i] % 7 !== 0;
+
+//   if (isDividableByThree && isNotDividableBySeven) {
+//     count++;
+//   }
+// }
+// console.log(count);
+// var arr = [];
+// for (var i = 0; i < 10; i++) {
+//   if (i % 3 === 0 && i % 7 !== 0) {
+//     arr.push(i);
+//   }
+// }
+// console.log(arr);
+// const points = [40, 100, 1, 5, 25, 10];
+// console.log(points.sort());
+
+// console.log(
+//   points.sort(function (a, b) {
+//     return a - b;
+//   })
+// );
+function numberToString(num) {
+  return num.toString();
+}
+
+console.log(typeof numberToString(123));
+console.log(123);
