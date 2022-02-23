@@ -149,10 +149,12 @@ for (var i = 0; i < 10; i++) {
 //   points.sort(function (a, b) {
 //     return a - b;
 //   })
-// );
-function numberToString(num) {
-  return num.toString();
-}
 
-console.log(typeof numberToString(123));
-console.log(123);
+const areaOrPerimeter = function (l, w) {
+  if (l === w) {
+    return Math.pow(l, 2);
+  } else {
+    return (l + w) * 2;
+  }
+};
+console.log(areaOrPerimeter(4, 3));
