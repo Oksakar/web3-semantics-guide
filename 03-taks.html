@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task3</title>
+  </head>
+
+  <body>
+    <pre>
+        Задание:
+        1) запросите у пользователя сколько он хочет купить единиц товара
+        2) выведите на экран какую сумму должен внести пользователь с учетом количества покупаемых единиц
+        3) выведите на экран сколько единиц товара останется на складе после покупки
+    </pre>
+
+    <script>
+      let productPrice = 101.5; // цена товара
+      let productQuantity = 50; // количество единиц товара на складе
+      let inputAmauntProduct = prompt(
+        "сколько единиц товара вы хотите купить?",
+        1
+      );
+      let sum = inputAmauntProduct * productPrice;
+      let remainder = productQuantity - inputAmauntProduct;
+      alert(`Вы должны внести сумму - ${sum}`);
+      alert(`На складе осталось : ${remainder}`);
+    </script>
+  </body>
+</html>
