@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task 2</title>
-</head>
-<body>
+  </head>
+  <body>
     <pre>
         Задание:
         Доработайте сценарий. Если пользователь ввел значение равное 0 или не числовое значение для высоты и радиуса цилиндра - сообщите об ошибке.
@@ -14,16 +14,18 @@
         нужно использовть функцию isNaN(value), которая вернет true если значение value не является числом. Такая проверка - value == NaN, не сработает.
     </pre>
     <script>
-        alert("Вычисление объема цилиндра.");
-        //  V=π * r в квадрате * h
-        let V;
-        const Pi = 3.1415926535; 
-        let r = +prompt("Введите радиус цилиндра");
-        let h = +prompt("Введите высоту цилиндра");
+      alert("Вычисление объема цилиндра.");
+      //  V=π * r в квадрате * h
+      let V;
+      const Pi = 3.1415926535;
+      let r = +prompt("Введите радиус цилиндра");
+      let h = +prompt("Введите высоту цилиндра");
+      if (r === 0 || h === 0) {
+        alert("вы ввели некоректное значение");
+      }
 
-        V = Pi * r * r * h;
-        alert(`Объем цилиндра с высотой ${h} и радиусом ${r} = ${V}`);
+      V = Pi * r * r * h;
+      alert(`Объем цилиндра с высотой ${h} и радиусом ${r} = ${V}`);
     </script>
-</body>
+  </body>
 </html>
-
