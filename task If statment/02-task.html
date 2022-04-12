@@ -20,12 +20,24 @@
       const Pi = 3.1415926535;
       let r = +prompt("Введите радиус цилиндра");
       let h = +prompt("Введите высоту цилиндра");
-      if (r === 0 || h === 0) {
-        alert("вы ввели некоректное значение");
+      let isDataValid = true;
+
+      if (isNaN(r) || r == 0) {
+        alert("Не правильное значение для радиуса.");
+        isDataValid = false;
       }
 
-      V = Pi * r * r * h;
-      alert(`Объем цилиндра с высотой ${h} и радиусом ${r} = ${V}`);
+      if (isNaN(h) || h == 0) {
+        alert("Не правильное значение для высоты.");
+        isDataValid = false;
+      }
+
+      if (isDataValid) {
+        V = Pi * r * r * h;
+        alert(`Объем цилиндра с высотой ${h} и радиусом ${r} = ${V}`);
+      } else {
+        alert("Невозможно вычислить объем цилиндра.");
+      }
     </script>
   </body>
 </html>
